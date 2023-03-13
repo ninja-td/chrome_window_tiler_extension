@@ -1,0 +1,38 @@
+body {
+	background: rgb(238 238 238);
+	color: rgb(20 20 20);
+	text-align: center;
+  line-height: 1.5;
+	font-size: calc(.7em);
+  font-family: monospace;
+  font-weight: 300;
+	min-width: 300px
+}
+.section {
+  background: rgb(238 238 238);
+  margin: auto;
+  border: 0px solid rgb(70 70 70);
+  border-radius: 2px;
+  padding: 20px;
+  box-shadow: 1px 1px 3px 1px #182039d4;
+	max-width: 800px;
+}
+
+.btn {
+	padding: .5em;
+  margin-top: 1em;
+	border-radius: 0.25em;
+}
+
+.label {
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+}
+
+.copyicon {
+  width:18px;
+  height:18px;
+  padding-bottom:0px;
+  border-style:hidden;
+}

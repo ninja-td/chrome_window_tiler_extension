@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="button.css">
+  </head>
+  <body>
+    <div class="section">
+      <div id="configList">sdfs</div>
+      <div><span class="label">current window size:</span>
+        <span class=label>
+          <div id="currentWindowSize" style="display:inline-block;border:1px solid;"></div>
+          <button id="copyCurrentConfigButton"><img src="images/copy.png" class="copyicon"></img></button>
+        </span>
+      </div>
+      <div><span class=label>config 1:</span>
+        <span class=label>
+          <input id=resizeOption1></input></div>
+        </span>
+      <div>
+        <span class=label>
+          config 2:
+        </span>
+        <span class=label>
+         <input id=resizeOption2></input></div>
+        </span>
+      <div>
+        <span class=label>
+          config 3:
+        </span>
+        <span class=label>
+          <input id=resizeOption3></input></div>
+        </span>
+      <div>
+        <span class=label>
+          config 4:
+        </span>
+        <span class=label>
+          <input id=resizeOption4></input>
+        </span>
+        </div>
+      <div><button id=saveOptions class=btn1>SAVE</button></div>
+    </div>
+    <div id=helpSection class=section style="text-align:left;">
+      <p>
+        Configure and quickly resize and position chrome windows to arrange your
+        workspace.
+        Four different window size/posision configs can be set and accessed via
+        the shortcut (default: Ctrl + q -> 1/2/3/4).
+      </br>
+      </br>
+        Set the configs in the options page. The configs are specified as
+        percentage of the total screen size.For example, to position a window
+        spanning 70% of the screen on the right, specify the config:
+        "30,0,70,100".
+      </br>
+      </br>
+        You can also resize the current window and copy the config printed in
+        the options page.
+      </p>
+    </div>
+  </body>
+  <script src="options.js"></script>
+</html>
